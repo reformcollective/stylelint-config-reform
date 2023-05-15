@@ -15,6 +15,7 @@ module.exports = {
       true,
       {
         severity: "warning",
+        "ignore": ["css-nesting"],
         ignorePartialSupport: true,
       },
     ],
