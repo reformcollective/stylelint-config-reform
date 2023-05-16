@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "postcss-styled-syntax": "^0.4.0",
-    "stylelint": "^15.5.0",
+    "stylelint": "^15.6.1",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-no-unsupported-browser-features": "github:RJWadley/stylelint-no-unsupported-browser-features"
   }
