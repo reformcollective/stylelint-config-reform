@@ -11,6 +11,7 @@ module.exports = {
     "no-empty-source": null,
     "block-no-empty": null,
     "selector-type-no-unknown": null,
+    "media-feature-range-notation": null,
     "plugin/no-unsupported-browser-features": [
       true,
       {
