@@ -18,8 +18,8 @@ dependencies:
     specifier: ^34.0.0
     version: 34.0.0(stylelint@15.10.2)
   stylelint-no-unsupported-browser-features:
-    specifier: github:RJWadley/stylelint-no-unsupported-browser-features
-    version: github.com/RJWadley/stylelint-no-unsupported-browser-features/7b4fe3964d06d7ada7409e9f2412b01105bff0da(stylelint@15.10.2)
+    specifier: ^7.0.0
+    version: 7.0.0(stylelint@15.10.2)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -81,10 +81,6 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: false
 
-  /@mdn/browser-compat-data@5.3.0:
-    resolution: {integrity: sha512-TrVSwoxpNKImgvHdAUDRleHJXWjBOgrri+C1OogMSwOPeIPZ0gEdym4cRQWv7VGHnkHCZ/PwR01XQaWlD00KFA==}
-    dev: false
-
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -104,24 +100,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
-    dev: false
-
-  /@rjwadley/doiuse@6.2.0:
-    resolution: {integrity: sha512-fQ0UbB8VMqWo5jxQGMFGOTvpnyy5ODs75pbgVeJXJ46cokdGntJQgMA6KPR/dEOwnlxSuGpgahaJDnk03jrJvw==}
-    engines: {node: '>=14'}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-    hasBin: true
-    dependencies:
-      '@mdn/browser-compat-data': 5.3.0
-      browserslist: 4.21.9
-      caniuse-lite: 1.0.30001512
-      css-tokenize: 1.0.1
-      duplexify: 4.1.2
-      ldjson-stream: 1.2.1
-      multimatch: 5.0.0
-      postcss: 8.4.27
-      source-map: 0.7.4
-      yargs: 17.7.2
     dev: false
 
   /@types/minimatch@3.0.5:
@@ -406,6 +384,22 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       path-type: 4.0.0
+    dev: false
+
+  /doiuse@6.0.2:
+    resolution: {integrity: sha512-eBTs23NOX+EAYPr4RbCR6J4DRW/TML3uMo37y0X1whlkersDYFCk9HmCl09KX98cis22VKsV1QaxfVNauJ3NBw==}
+    engines: {node: '>=16'}
+    hasBin: true
+    dependencies:
+      browserslist: 4.21.9
+      caniuse-lite: 1.0.30001512
+      css-tokenize: 1.0.1
+      duplexify: 4.1.2
+      ldjson-stream: 1.2.1
+      multimatch: 5.0.0
+      postcss: 8.4.27
+      source-map: 0.7.4
+      yargs: 17.7.2
     dev: false
 
   /duplexify@4.1.2:
@@ -1219,6 +1213,18 @@ packages:
       stylelint-config-recommended: 13.0.0(stylelint@15.10.2)
     dev: false
 
+  /stylelint-no-unsupported-browser-features@7.0.0(stylelint@15.10.2):
+    resolution: {integrity: sha512-O5VYlBhr+lpJ6jeTJSy+SMbHJhW5h5EJxsoicYcTi/07m45V/CF1mQidwRQLjv8y9BFQMpioWz60O89IkmbaNw==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      stylelint: ^14.0.0||^15.0.0
+    dependencies:
+      doiuse: 6.0.2
+      lodash: 4.17.21
+      postcss: 8.4.27
+      stylelint: 15.10.2
+    dev: false
+
   /stylelint@15.10.2:
     resolution: {integrity: sha512-UxqSb3hB74g4DTO45QhUHkJMjKKU//lNUAOWyvPBVPZbCknJ5HjOWWZo+UDuhHa9FLeVdHBZXxu43eXkjyIPWg==}
     engines: {node: ^14.13.1 || >=16.0.0}
@@ -1445,21 +1451,4 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-    dev: false
-
-  github.com/RJWadley/stylelint-no-unsupported-browser-features/7b4fe3964d06d7ada7409e9f2412b01105bff0da(stylelint@15.10.2):
-    resolution: {tarball: https://codeload.github.com/RJWadley/stylelint-no-unsupported-browser-features/tar.gz/7b4fe3964d06d7ada7409e9f2412b01105bff0da}
-    id: github.com/RJWadley/stylelint-no-unsupported-browser-features/7b4fe3964d06d7ada7409e9f2412b01105bff0da
-    name: stylelint-no-unsupported-browser-features
-    version: 6.1.0
-    engines: {node: '>=14'}
-    prepare: true
-    requiresBuild: true
-    peerDependencies:
-      stylelint: ^14.0.0||^15.0.0
-    dependencies:
-      '@rjwadley/doiuse': 6.2.0
-      lodash: 4.17.21
-      postcss: 8.4.27
-      stylelint: 15.10.2
     dev: false
