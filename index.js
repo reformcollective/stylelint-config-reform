@@ -12,11 +12,12 @@ module.exports = {
     "block-no-empty": null,
     "selector-type-no-unknown": null,
     "media-feature-range-notation": null,
+    "custom-property-empty-line-before": null,
     "plugin/no-unsupported-browser-features": [
       true,
       {
         severity: "warning",
-        "ignore": ["css-nesting", "css3-cursors"],
+        ignore: ["css-nesting", "css3-cursors"],
         ignorePartialSupport: true,
       },
     ],
