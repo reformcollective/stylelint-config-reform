@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postcss": "^8.4.27",
-    "postcss-styled-syntax": "^0.4.0",
-    "stylelint": "^15.10.2",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-no-unsupported-browser-features": "^7.0.0",
-    "typescript": "^5.1.6"
+    "postcss": "8.4.29",
+    "postcss-styled-syntax": "0.4.0",
+    "stylelint": "15.10.3",
+    "stylelint-config-standard": "34.0.0",
+    "stylelint-no-unsupported-browser-features": "7.0.0",
+    "typescript": "5.2.2"
   }
 }
