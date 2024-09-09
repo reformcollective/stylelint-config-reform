@@ -1,19 +1,22 @@
 {
-  "name": "stylelint-config-reform-collective",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "postcss": "8.4.32",
-    "postcss-styled-syntax": "0.5.0",
-    "stylelint": "16.1.0",
-    "stylelint-config-standard": "36.0.0",
-    "stylelint-no-unsupported-browser-features": "8.0.0",
-    "typescript": "5.3.3"
-  }
+	"name": "stylelint-config-reform-collective",
+	"version": "1.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"caniuse-lite": "1.0.30001653",
+		"doiuse": "^6.0.2",
+		"postcss": "8.4.45",
+		"postcss-styled-syntax": "0.6.4",
+		"stylelint": "16.9.0",
+		"stylelint-config-standard": "36.0.1",
+		"stylelint-no-unsupported-browser-features": "8.0.1",
+		"typescript": "5.6.2"
+	},
+	"packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }
