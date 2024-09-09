@@ -12,8 +12,8 @@ importers:
         specifier: 1.0.30001653
         version: 1.0.30001653
       doiuse:
-        specifier: ^6.0.2
-        version: 6.0.2
+        specifier: github:anandthakker/doiuse
+        version: https://codeload.github.com/anandthakker/doiuse/tar.gz/85d805d4bcf232d2d61d3f0457afc3010ae48c42
       postcss:
         specifier: 8.4.45
         version: 8.4.45
@@ -221,6 +221,12 @@ packages:
 
   doiuse@6.0.2:
     resolution: {integrity: sha512-eBTs23NOX+EAYPr4RbCR6J4DRW/TML3uMo37y0X1whlkersDYFCk9HmCl09KX98cis22VKsV1QaxfVNauJ3NBw==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+  doiuse@https://codeload.github.com/anandthakker/doiuse/tar.gz/85d805d4bcf232d2d61d3f0457afc3010ae48c42:
+    resolution: {tarball: https://codeload.github.com/anandthakker/doiuse/tar.gz/85d805d4bcf232d2d61d3f0457afc3010ae48c42}
+    version: 6.0.2
     engines: {node: '>=16'}
     hasBin: true
 
@@ -839,6 +845,17 @@ snapshots:
       css-tokenize: 1.0.1
       duplexify: 4.1.2
       ldjson-stream: 1.2.1
+      multimatch: 5.0.0
+      postcss: 8.4.45
+      source-map: 0.7.4
+      yargs: 17.7.2
+
+  doiuse@https://codeload.github.com/anandthakker/doiuse/tar.gz/85d805d4bcf232d2d61d3f0457afc3010ae48c42:
+    dependencies:
+      browserslist: 4.21.9
+      caniuse-lite: 1.0.30001653
+      css-tokenize: 1.0.1
+      duplexify: 4.1.2
       multimatch: 5.0.0
       postcss: 8.4.45
       source-map: 0.7.4
