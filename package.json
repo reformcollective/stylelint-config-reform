@@ -9,7 +9,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"caniuse-lite": "1.0.30001664",
+		"caniuse-lite": "1.0.30001667",
 		"doiuse": "github:anandthakker/doiuse",
 		"postcss": "8.4.47",
 		"postcss-styled-syntax": "0.6.4",
