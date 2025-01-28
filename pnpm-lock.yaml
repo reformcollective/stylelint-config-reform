@@ -27,8 +27,8 @@ importers:
         specifier: 37.0.0
         version: 37.0.0(stylelint@16.14.1(typescript@5.7.3))
       stylelint-no-unsupported-browser-features:
-        specifier: 8.0.3
-        version: 8.0.3(stylelint@16.14.1(typescript@5.7.3))
+        specifier: 8.0.4
+        version: 8.0.4(stylelint@16.14.1(typescript@5.7.3))
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -583,8 +583,8 @@ packages:
     peerDependencies:
       stylelint: ^16.13.0
 
-  stylelint-no-unsupported-browser-features@8.0.3:
-    resolution: {integrity: sha512-syBQxFaiwjQ5v0xnBTojQ1NnlGwfEnEpQYu3LxMnC1VLegzQr3CbJQS+JT2t5VOLfuFFc6K1LEAuWOw3yzEl8Q==}
+  stylelint-no-unsupported-browser-features@8.0.4:
+    resolution: {integrity: sha512-MNdjegsgfTu1iDBsJM+1uBVZsIt0EWzqAX5qgUBAGavXkddwRqh+S1KD2VnWqUhiEuyddVrWJH8vKsNI40orxA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.2
@@ -1145,7 +1145,7 @@ snapshots:
       stylelint: 16.14.1(typescript@5.7.3)
       stylelint-config-recommended: 15.0.0(stylelint@16.14.1(typescript@5.7.3))
 
-  stylelint-no-unsupported-browser-features@8.0.3(stylelint@16.14.1(typescript@5.7.3)):
+  stylelint-no-unsupported-browser-features@8.0.4(stylelint@16.14.1(typescript@5.7.3)):
     dependencies:
       doiuse: 6.0.5
       postcss: 8.5.1
