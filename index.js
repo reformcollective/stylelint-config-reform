@@ -21,6 +21,5 @@ module.exports = {
 				ignorePartialSupport: true,
 			},
 		],
-		"plugin/use-baseline": [true, { available: "2024" }],
 	},
 };
