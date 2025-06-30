@@ -1,8 +1,9 @@
 {
 	"name": "stylelint-config-reform-collective",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"description": "",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

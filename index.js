@@ -1,6 +1,8 @@
-module.exports = {
+import postcssSyntax from "postcss-styled-syntax";
+
+export default {
 	extends: "stylelint-config-standard",
-	customSyntax: "postcss-styled-syntax",
+	customSyntax: postcssSyntax,
 	overrides: [{ files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"] }],
 	plugins: ["stylelint-no-unsupported-browser-features"],
 	rules: {
