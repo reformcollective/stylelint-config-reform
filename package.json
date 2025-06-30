@@ -10,13 +10,12 @@
 	"license": "ISC",
 	"dependencies": {
 		"doiuse": "^6.0.5",
-		"postcss": "8.5.2",
+		"postcss": "8.5.6",
 		"postcss-styled-syntax": "0.7.1",
-		"stylelint": "16.14.1",
-		"stylelint-config-standard": "37.0.0",
+		"stylelint": "16.21.0",
+		"stylelint-config-standard": "38.0.0",
 		"stylelint-no-unsupported-browser-features": "8.0.4",
-		"stylelint-plugin-use-baseline": "^0.5.0",
-		"typescript": "5.7.3"
+		"typescript": "5.8.3"
 	},
-	"packageManager": "pnpm@10.3.0"
+	"packageManager": "pnpm@10.12.4"
 }
