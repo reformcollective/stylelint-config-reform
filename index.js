@@ -10,6 +10,7 @@ export default {
 		"block-no-empty": null,
 		"media-query-no-invalid": null,
 		"custom-property-empty-line-before": null,
+		"nesting-selector-no-missing-scoping-root": null,
 		"plugin/no-unsupported-browser-features": [
 			true,
 			{
