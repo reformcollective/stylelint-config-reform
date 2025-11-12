@@ -4,7 +4,7 @@ export default {
 	extends: "stylelint-config-standard",
 	customSyntax: postcssSyntax,
 	overrides: [{ files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"] }],
-	plugins: ["stylelint-no-unsupported-browser-features"],
+	plugins: ["stylelint-plugin-use-baseline"],
 	rules: {
 		"no-empty-source": null,
 		"block-no-empty": null,
