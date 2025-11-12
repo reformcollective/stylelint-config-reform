@@ -11,12 +11,6 @@ export default {
 		"media-query-no-invalid": null,
 		"custom-property-empty-line-before": null,
 		"nesting-selector-no-missing-scoping-root": null,
-		"plugin/use-baseline": [
-			true,
-			{
-				// "widely" (default), "newly", or YYYY (e.g. 2023)
-				available: "2024",
-			},
-		],
+		"plugin/use-baseline": [true, { available: 2023 }],
 	},
 };
