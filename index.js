@@ -11,6 +11,16 @@ export default {
 		"media-query-no-invalid": null,
 		"custom-property-empty-line-before": null,
 		"nesting-selector-no-missing-scoping-root": null,
-		"plugin/use-baseline": [true, { available: 2024 }],
+		"plugin/use-baseline": [
+			true,
+			{
+				available: 2024,
+				ignoreSelectors: ["/^view-transition-/"],
+				ignoreProperties: {
+					"background-clip": ["text"],
+					"view-transition-name": [],
+				},
+			},
+		],
 	},
 };
