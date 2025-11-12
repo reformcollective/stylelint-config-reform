@@ -11,6 +11,8 @@ export default {
 		"media-query-no-invalid": null,
 		"custom-property-empty-line-before": null,
 		"nesting-selector-no-missing-scoping-root": null,
+		"layer-name-pattern": null,
+		"at-rule-prelude-no-invalid": null,
 		"plugin/use-baseline": [
 			true,
 			{
