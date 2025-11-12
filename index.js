@@ -11,12 +11,11 @@ export default {
 		"media-query-no-invalid": null,
 		"custom-property-empty-line-before": null,
 		"nesting-selector-no-missing-scoping-root": null,
-		"plugin/no-unsupported-browser-features": [
+		"plugin/use-baseline": [
 			true,
 			{
-				severity: "warning",
-				ignore: ["css-nesting", "css3-cursors"],
-				ignorePartialSupport: true,
+				// "widely" (default), "newly", or YYYY (e.g. 2023)
+				available: "2024",
 			},
 		],
 	},
